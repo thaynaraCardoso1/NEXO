@@ -3,5 +3,3 @@
 # Arquivos do macOS
 .DS_Store
 
-# Bases grandes de redes sociais
-dados/redes sociais/*.csv
