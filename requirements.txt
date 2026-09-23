@@ -1,0 +1,28 @@
+# ============================================================
+#  NEXO — Nucleo de Exploracao de Relacoes Temporais
+#  requirements.txt — instale com: python -m pip install -r requirements.txt
+# ============================================================
+
+# --- Ferramenta principal (app_correlacao_academica.py) ---
+streamlit>=1.35.0
+pandas>=2.0.0
+numpy>=1.26.0
+plotly>=5.22.0
+scipy>=1.13.0
+statsmodels>=0.14.0
+scikit-learn>=1.5.0
+wordcloud>=1.9.0
+
+# --- Pipeline de coleta e NLP ---
+vaderSentiment>=3.3.2
+transformers>=4.40.0
+torch>=2.3.0
+tqdm>=4.66.0
+zstandard>=0.22.0
+requests>=2.32.0
+python-dotenv>=1.0.0
+instaloader>=4.13.0
+
+# --- Utilitarios ---
+python-dateutil>=2.9.0
+chardet>=5.2.0
